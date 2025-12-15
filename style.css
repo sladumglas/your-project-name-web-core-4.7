@@ -9,7 +9,7 @@ body {
 
 @font-face {
     font-family: 'Barlow';
-    src: url('../font/BarlowSemiCondensed-ExtraLight.otf') format('opentype');
+    src: url('../font/BarlowSemiCondensed-ExtraLight.woff') format('woff');
     font-weight: normal;
     font-style: bold;
 } 
