@@ -1,0 +1,207 @@
+html {
+    background-color: #EFF6FF;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Barlow", sans-serif;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../font/BarlowSemiCondensed-ExtraLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: bold;
+} 
+
+.logo {
+    display: inline-block;
+}
+
+.image, 
+.overlay {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.overlay {
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 220px
+}
+
+.main-wrapper {
+    max-width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section {
+    margin-top: 60px;
+    color: #7B8A92;
+}
+
+.section h2 {
+    margin-top: 20px;
+    color: #96A5B1;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.social-link.facebook {background-color: #255A9B;}
+.social-link.linkedin {
+    background-color: #0076B6;
+    margin-left: 40px;
+}
+
+.divider {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+ 
+.divider span {
+    padding: 0 30px;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #96A5B1;
+    max-width: 100px;
+}
+
+.line-box {
+    display: flex;
+    gap: 100px;
+}
+
+.input-box {
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px 14px;
+    border: 1px solid #EEEEEE;
+    background: #EFF6FF;
+}
+
+
+.input-box label {
+    display: block;
+    margin-bottom: 10px;
+    color: #AFAFAF;
+}
+
+
+.input-box input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+}
+
+.input-box.blue:focus-within { border-left: 3px solid #255A9B; }
+.input-box.cyan:focus-within { border-left: 3px solid #0076B6; }
+
+.radio-group {
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 23px;
+    color: #070606;
+}
+
+.radio-option input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.radio-option input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 6px solid blue;
+    border-radius: 50%;
+}
+
+
+.info-button {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: white;
+    color: #AFAFAF ;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    top: 20px;
+    width: 250px;
+    padding: 8px 12px;
+    background-color: #FFFFFF ;
+    border: 10px solid #EFF6FF;
+    font-size: 17px;
+    color: #AFAFAF;
+    display: none;
+    z-index: 10;
+}
+
+.tooltip::before {
+    content: "I am a natural person investing on my own behalf as a sole owner,joint tenant,or tenant in common.";
+}
+
+.info-button:hover .tooltip {
+    display: block;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 500px;
+    color: #070606 ;
+}
+
+.container-button {
+    margin-top: 120px;
+    font-size: 25px;
+    color: #AFAFAF;       
+}
+
+.button-link {
+    margin-top: 40px;
+    display: inline-block;
+    padding: 20px 100px;
+    background-color: #3698FB ;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
