@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('../font/BarlowSemiCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+} 
+
 html {
     background-color: #EFF6FF;
 }
@@ -6,15 +14,6 @@ body {
   overflow-x: hidden;
   font-family: "Barlow", sans-serif;
 }
-
-@font-face {
-    font-family: 'Barlow';
-    src: url('../font/BarlowSemiCondensed-ExtraLight.woff') format('woff');
-    src: url('../font/BarlowSemiCondensed-ExtraLight.ttf') format('truetype');
-    src: url('../font/BarlowSemiCondensed-ExtraLight.otf') format('opentype');
-    font-weight: 200;
-    font-style: normal;
-} 
 
 .logo {
     display: inline-block;
